@@ -1,0 +1,33 @@
+{
+    "name": "dvizh/yii2-bootstrap",
+    "description": "Dvizh's bootstrap for yii2",
+    "keywords": ["application", "dvizh", "dvizh software", "bootstrap", "yii2"],
+    "homepage": "https://github.com/dvizh/",
+    "type": "dic",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/dvizh/yii2-bootstrap"
+    },
+    "authors": [
+        {
+            "name": "Ilya Pistol",
+            "email": "admin@nethammer.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "dvizh/application": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "dvizh\\bootstrap\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "dvizh\\bootstrap\\Bootstrap"
+    }
+}
