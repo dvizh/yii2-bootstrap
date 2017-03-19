@@ -17,7 +17,11 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1",
-        "dvizh/application": "*"
+        "dvizh/application": "*",
+        "dvizh/yii2-cart": "*",
+        "dvizh/yii2-order": "*",
+        "dvizh/yii2-discount": "*",
+        "dvizh/yii2-shop": "*"
     },
     "config": {
         "process-timeout": 1800
